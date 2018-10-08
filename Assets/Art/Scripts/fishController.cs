@@ -6,7 +6,6 @@ public class fishController : MonoBehaviour {
 
     [SerializeField]
     private float jumpForce = 50f;
-    private float GoRight = 10f;
 
     private Rigidbody2D rb;
 
@@ -25,7 +24,6 @@ public class fishController : MonoBehaviour {
 		if(Input.GetButtonDown("Fire1"))
         {
             rb.velocity = Vector2.zero;
-            rb.AddForce(Vector2.right * GoRight);
             rb.AddForce(Vector2.up * jumpForce);
         }
     }
