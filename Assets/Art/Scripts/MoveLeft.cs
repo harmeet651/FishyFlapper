@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveLeft : MonoBehaviour {
 
     [SerializeField]
-    private float speed = 1f;
+    private float speed = 2.5f;
 
 	// Use this for initialization
 	void Start () {

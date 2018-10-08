@@ -237,6 +237,7 @@
   <ItemGroup>
     <Compile Include="Assets\Art\Scripts\fishController.cs" />
     <Compile Include="Assets\Art\Scripts\MoveLeft.cs" />
+    <Compile Include="Assets\Art\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Art\Scripts\obstacleController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
